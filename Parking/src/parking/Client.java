@@ -23,4 +23,28 @@ public class Client {
 	public String getNom() {
 		return this.nom;
 	}
+	
+	public String getPrenom() {
+		return this.prenom;
+	}
+	
+	public int getId() {
+		return this.id;
+	}
+	
+	public String getMail() {
+		return this.mail;
+	}
+	
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	
+	public void setMail() {
+		this.mail = mail;
+	}
 }
