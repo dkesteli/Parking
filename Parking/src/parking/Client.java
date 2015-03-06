@@ -44,7 +44,7 @@ public class Client {
 		this.prenom = prenom;
 	}
 	
-	public void setMail() {
+	public void setMail(String mail) {
 		this.mail = mail;
 	}
 }
