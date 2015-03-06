@@ -30,5 +30,9 @@ public class Parking {
 		return placesLibres;
 	}
 	
+	public String toString(){
+		return "ID Parking : "+idParking+"\nAdresse : "+adresse+"\nCapacité Totale : "+capacite+"\nNombre de places libres : "+placesLibres;
+	}
+	
 
 }
