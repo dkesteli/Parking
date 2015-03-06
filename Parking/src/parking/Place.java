@@ -24,7 +24,7 @@ public class Place {
 		return nomDuParking;
 	}
 	
-	public void setOccupé(){
+	public void setOccupe(){
 		this.libre=false;
 	}
 	
